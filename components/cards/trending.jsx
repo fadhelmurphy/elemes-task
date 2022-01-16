@@ -61,9 +61,9 @@ export const TrendingCards = ()=>{
     ]
     return(
         <>
-        {data.map(({backgroundColor,imgPath,title,label,star})=>(
+        {data.map(({backgroundColor,imgPath,title,label,star},idx)=>(
             
-        <div className="trending col-12 custom-col-md-3 mx-4 mx-md-2 mb-4 p-3 py-4 shadow-sm" style={{
+        <div key={idx} className="trending col-12 custom-col-md-3 mx-4 mx-md-2 mb-4 p-3 py-4 shadow-sm" style={{
             backgroundColor,
             borderRadius:"17px",
             // width:"23%"

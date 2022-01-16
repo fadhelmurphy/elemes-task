@@ -238,7 +238,7 @@ export default function Home() {
 
             <InputGroup className="mb-3 rounded">
               <FormControl
-                placeholder="Recipient's username"
+                placeholder="Your email address"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
